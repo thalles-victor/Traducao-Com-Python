@@ -1,11 +1,13 @@
 # Traducao-Com-Python
 Esse exemplo mostra como traduzir um text usando python e a biblioteca googletrans.
 
-  instalação: $ ```pip3 install googletrans```
+  instalação: $ 
+  ```pip3 install googletrans```
 
   No caso, foi usado a versão 3.1.0a0, para
   usar esta ou outra, coloque o operador < == >
-    exp: ```pip3 install googletrans==3.1.0a0```
+    exp: 
+    ```pip3 install googletrans==3.1.0a0```
                                                                   
 
   Obs: O VSCode não reconheceu a biblioteca,rodou sem problemas
