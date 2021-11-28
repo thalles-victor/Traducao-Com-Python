@@ -12,6 +12,7 @@ Esse exemplo mostra como traduzir um usando python e a biblioteca googletrans
   funcionou escrevendo da maneira correda as linhas de código.
   
   Adicionando ao projeto
+  
 ```python
 from googletrans import Translator
 translator = Translator()
@@ -19,18 +20,16 @@ translator = Translator()
 
   .translate().text -> tradução mais usada
 
-```
+```python
 print(
   translator.translate('Undefined', src='en', dest='pt').text
 )
 ```
 
-
-
-
   .translate().extra_data -> Um conjundo de informações
   como, varbos, adjetivos... exemplos de uso...
-```
+  
+```python
 print(
   translator.translate('Like', src='en', dest='pt').extra_data
 )
