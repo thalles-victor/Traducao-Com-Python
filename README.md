@@ -44,8 +44,8 @@ print(
   
 ```python
 print(
-  translator.detect('É dessa forma que detectamos o idioma de um texto') 
-) # -> Detected(lang=pt, confidence=1)
+  translator.detect('marron') 
+) # -> Detected(lang=fr, confidence=0.8203125)  Perceba que marron foi indentificado  na lingua francesa com uma descrepancia.
 ```
 
 ```python
