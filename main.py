@@ -33,13 +33,11 @@ print(
 
 """
   .detect() -> Detecta o idioma de algum texto.
-    
-    
 """
 
 print(
-  translator.detect('rapariga') 
-) # -> Detected(lang=pt, confidence=1)
+  translator.detect('marron') 
+) # -> Detected(lang=fr, confidence=0.8203125)  Perceba que marron foi indentificado  na lingua francesa com uma descrepancia.
 
 print(
   translator.detect('Agora quero que me retorne apénas o idioma').lang # Usar o .lang para retornar o idioma 
